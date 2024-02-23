@@ -68,7 +68,7 @@ helm install my-release bitnami/mongodb --values mongo-values.yml -n litmus --cr
 Applying the manifest file will install all the required service account configuration and ChaosCenter in cluster scope.
 
 ```shell
-kubectl apply -f https://raw.githubusercontent.com/litmuschaos/litmus/master/mkdocs/docs/3.0.0/litmus-cluster-scope-3.0.0.yaml
+kubectl apply -f https://raw.githubusercontent.com/litmuschaos/litmus/master/mkdocs/docs/3.4.0/litmus-cluster-scope-3.4.0.yaml
 ```
    
 Construct the chaos scenario to kill the helloservice replica with a http probe to verify availability. Validate hypothesis & analyze results 
